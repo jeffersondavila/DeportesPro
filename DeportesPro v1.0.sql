@@ -35,9 +35,9 @@ CREATE TABLE arbitros (
 ) ENGINE = InnoDB DEFAULT CHARSET = latin1;
 
 -- -----------------------------------------------------
--- Table `MasterPro`.`Clasificaciones`
+-- Table `MasterPro`.`Clasificaciones de Equipo`
 -- -----------------------------------------------------
-CREATE TABLE clasificaciones (
+CREATE TABLE clasificaciones_Equipo (
   PK_codigo_equipo VARCHAR(5) NOT NULL,
   PRIMARY KEY (PK_codigo_equipo)
 ) ENGINE = InnoDB DEFAULT CHARSET = latin1;
