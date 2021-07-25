@@ -1,0 +1,17 @@
+C:\Users\leone\source\repos\DeportesPro\bin\Debug\netcoreapp3.1\DeportesPro.exe
+C:\Users\leone\source\repos\DeportesPro\bin\Debug\netcoreapp3.1\DeportesPro.deps.json
+C:\Users\leone\source\repos\DeportesPro\bin\Debug\netcoreapp3.1\DeportesPro.runtimeconfig.json
+C:\Users\leone\source\repos\DeportesPro\bin\Debug\netcoreapp3.1\DeportesPro.runtimeconfig.dev.json
+C:\Users\leone\source\repos\DeportesPro\bin\Debug\netcoreapp3.1\DeportesPro.dll
+C:\Users\leone\source\repos\DeportesPro\bin\Debug\netcoreapp3.1\DeportesPro.pdb
+C:\Users\leone\source\repos\DeportesPro\obj\Debug\netcoreapp3.1\DeportesPro.csproj.AssemblyReference.cache
+C:\Users\leone\source\repos\DeportesPro\obj\Debug\netcoreapp3.1\DeportesPro.MDI.resources
+C:\Users\leone\source\repos\DeportesPro\obj\Debug\netcoreapp3.1\DeportesPro.csproj.GenerateResource.cache
+C:\Users\leone\source\repos\DeportesPro\obj\Debug\netcoreapp3.1\DeportesPro.AssemblyInfoInputs.cache
+C:\Users\leone\source\repos\DeportesPro\obj\Debug\netcoreapp3.1\DeportesPro.AssemblyInfo.cs
+C:\Users\leone\source\repos\DeportesPro\obj\Debug\netcoreapp3.1\DeportesPro.csproj.CoreCompileInputs.cache
+C:\Users\leone\source\repos\DeportesPro\obj\Debug\netcoreapp3.1\DeportesPro.dll
+C:\Users\leone\source\repos\DeportesPro\obj\Debug\netcoreapp3.1\DeportesPro.pdb
+C:\Users\leone\source\repos\DeportesPro\obj\Debug\netcoreapp3.1\DeportesPro.genruntimeconfig.cache
+C:\Users\leone\source\repos\DeportesPro\obj\Debug\netcoreapp3.1\DeportesPro.Properties.Resources.resources
+C:\Users\leone\source\repos\DeportesPro\obj\Debug\netcoreapp3.1\DeportesPro.Vista.Mantenimiento_Usuarios.resources
