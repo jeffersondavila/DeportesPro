@@ -41,3 +41,35 @@ CREATE TABLE clasificaciones_Equipo (
   PK_codigo_equipo VARCHAR(5) NOT NULL,
   PRIMARY KEY (PK_codigo_equipo)
 ) ENGINE = InnoDB DEFAULT CHARSET = latin1;
+
+-- -----------------------------------------------------
+-- Table `MasterPro`.`Aplicaciones`
+-- -----------------------------------------------------
+CREATE TABLE aplicaciones (
+  PK_codigo_aplicacion VARCHAR(5) NOT NULL,
+  PRIMARY KEY (PK_codigo_aplicacion)
+) ENGINE = InnoDB DEFAULT CHARSET = latin1;
+
+-- -----------------------------------------------------
+-- Table `MasterPro`.`Login`
+-- -----------------------------------------------------
+CREATE TABLE login (
+  PK_codigo_login VARCHAR(5) NOT NULL,
+  PRIMARY KEY (PK_codigo_login)
+) ENGINE = InnoDB DEFAULT CHARSET = latin1;
+
+-- -----------------------------------------------------
+-- Table `MasterPro`.`Permisos`
+-- -----------------------------------------------------
+CREATE TABLE permisos (
+  PK_codigo_permiso VARCHAR(5) NOT NULL,
+  PRIMARY KEY (PK_codigo_permiso)
+) ENGINE = InnoDB DEFAULT CHARSET = latin1;
+
+-- -----------------------------------------------------
+-- Table `MasterPro`.`Bitacora`
+-- -----------------------------------------------------
+CREATE TABLE bitacora (
+  PK_codigo_bitacora INT AUTO_INCREMENT,
+  PRIMARY KEY (PK_codigo_bitacora)
+) ENGINE = InnoDB DEFAULT CHARSET = latin1;
