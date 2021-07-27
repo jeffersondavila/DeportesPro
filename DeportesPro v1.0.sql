@@ -51,6 +51,46 @@ CREATE TABLE aplicaciones (
 ) ENGINE = InnoDB DEFAULT CHARSET = latin1;
 
 -- -----------------------------------------------------
+-- Table `MasterPro`.`Categorias`
+-- -----------------------------------------------------
+CREATE TABLE categorias (
+  PK_codigo_categorias VARCHAR(5) NOT NULL,
+  PRIMARY KEY (PK_codigo_categorias)
+) ENGINE = InnoDB DEFAULT CHARSET = latin1;
+
+-- -----------------------------------------------------
+-- Table `MasterPro`.`Division`
+-- -----------------------------------------------------
+CREATE TABLE division (
+  PK_codigo_division VARCHAR(5) NOT NULL,
+  PRIMARY KEY (PK_codigo_division)
+) ENGINE = InnoDB DEFAULT CHARSET = latin1;
+
+-- -----------------------------------------------------
+-- Table `MasterPro`.`Equipo`
+-- -----------------------------------------------------
+CREATE TABLE equipo (
+  PK_codigo_equipo VARCHAR(5) NOT NULL,
+  PRIMARY KEY (PK_codigo_equipo)
+) ENGINE = InnoDB DEFAULT CHARSET = latin1;
+
+-- -----------------------------------------------------
+-- Table `MasterPro`.`Partidos`
+-- -----------------------------------------------------
+CREATE TABLE partidos (
+  PK_codigo_partidos VARCHAR(5) NOT NULL,
+  PRIMARY KEY (PK_codigo_partidos)
+) ENGINE = InnoDB DEFAULT CHARSET = latin1;
+
+-- -----------------------------------------------------
+-- Table `MasterPro`.`Calendario`
+-- -----------------------------------------------------
+CREATE TABLE calendario (
+  PK_codigo_calendario VARCHAR(5) NOT NULL,
+  PRIMARY KEY ( PK_codigo_calendario)
+) ENGINE = InnoDB DEFAULT CHARSET = latin1;
+
+-- -----------------------------------------------------
 -- Table `MasterPro`.`Login`
 -- -----------------------------------------------------
 CREATE TABLE login (
