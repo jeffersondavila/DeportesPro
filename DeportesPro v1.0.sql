@@ -73,3 +73,38 @@ CREATE TABLE bitacora (
   PK_codigo_bitacora INT AUTO_INCREMENT,
   PRIMARY KEY (PK_codigo_bitacora)
 ) ENGINE = InnoDB DEFAULT CHARSET = latin1;
+
+-- -----------------------------------------------------
+-- Table `MasterPro`.`Accion`
+-- -----------------------------------------------------
+CREATE TABLE accion (
+  PK_codigo_accion VARCHAR(5) NOT NULL,
+  PRIMARY KEY (PK_codigo_accion)
+) ENGINE = InnoDB DEFAULT CHARSET = latin1;
+
+
+-- -----------------------------------------------------
+-- Table `MasterPro`.`Jugadores`
+-- -----------------------------------------------------
+CREATE TABLE jugadores (
+  PK_codigo_jugador  VARCHAR(5) NOT NULL,
+  PRIMARY KEY (PK_codigo_jugador)
+) ENGINE = InnoDB DEFAULT CHARSET = latin1;
+
+
+-- -----------------------------------------------------
+-- Table `MasterPro`.`Eventos_de_partido`
+-- -----------------------------------------------------
+CREATE TABLE eventos_de_partido (
+ PK_codigo_partido  VARCHAR(5) NOT NULL,
+PRIMARY KEY (PK_codigo_partido)
+) ENGINE = InnoDB DEFAULT CHARSET = latin1;
+
+-- -----------------------------------------------------
+-- Table `MasterPro`.`Jornada`
+-- -----------------------------------------------------
+CREATE TABLE jornada(
+  PK_codigo_jornada  VARCHAR(5) NOT NULL,
+PRIMARY KEY (PK_codigo_jornada)
+) ENGINE = InnoDB DEFAULT CHARSET = latin1;
+
