@@ -148,3 +148,35 @@ CREATE TABLE jornada(
 PRIMARY KEY (PK_codigo_jornada)
 ) ENGINE = InnoDB DEFAULT CHARSET = latin1;
 
+-- -----------------------------------------------------
+-- Table `MasterPro`.`Campo`
+-- -----------------------------------------------------
+CREATE TABLE campo(
+  PK_codigo_campo  VARCHAR(5) NOT NULL,
+PRIMARY KEY (PK_codigo_campo)
+) ENGINE = InnoDB DEFAULT CHARSET = latin1;
+
+-- -----------------------------------------------------
+-- Table `MasterPro`.`Penalizacion`
+-- -----------------------------------------------------
+CREATE TABLE penalizacion(
+  PK_codigo_penalizacion  VARCHAR(5) NOT NULL,
+PRIMARY KEY (PK_codigo_penalizacion)
+) ENGINE = InnoDB DEFAULT CHARSET = latin1;
+
+-- -----------------------------------------------------
+-- Table `MasterPro`.`Rol`
+-- -----------------------------------------------------
+CREATE TABLE rol(
+  PK_codigo_rol  VARCHAR(5) NOT NULL,
+PRIMARY KEY (PK_codigo_rol)
+) ENGINE = InnoDB DEFAULT CHARSET = latin1;
+
+-- -----------------------------------------------------
+-- Table `MasterPro`.`Estadisticas Jugador`
+-- -----------------------------------------------------
+CREATE TABLE estajugador(
+  PK_codigo_jugador  VARCHAR(5) NOT NULL,
+PRIMARY KEY (PK_codigo_jugador),
+FOREIGN KEY (PK_codigo_jugador) REFERENCES jugadores(PK_codigo_jugador)
+) ENGINE = InnoDB DEFAULT CHARSET = latin1;
